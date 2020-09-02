@@ -84,6 +84,7 @@ function processInput() {
             splitHyphens[j].slice(1) +
             "-";
         }
+        outputValue = outputValue.slice(0, outputValue.length - 1);
       }
       console.log(outputValue);
       break;
